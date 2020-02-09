@@ -222,9 +222,6 @@ body {
         img {
         float: left;
         }
-        body {
-        background: green;
-        }
         body { 
         margin: 0px;
         padding: 0;
@@ -244,7 +241,6 @@ body {
         width: 50%;
         }
         body { 
-        background: red;
         margin: 0px;
         padding: 0;
         }
@@ -258,9 +254,6 @@ body {
         #masthead {
         position: static;
         text-align: center;    
-        }
-        body {
-        background: blue;
         }
         #catimage {
         width: 100%;
