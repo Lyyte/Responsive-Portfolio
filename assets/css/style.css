@@ -222,6 +222,18 @@ body {
         img {
         float: left;
         }
+        body {
+        background: green;
+        }
+        body { 
+        margin: 0px;
+        padding: 0;
+        }
+        #main-container {
+        width: 70%;
+        float: left;
+        margin-left: 50px;
+        }
     }
 
     @media screen and (max-width: 768px) {
@@ -235,6 +247,10 @@ body {
         background: red;
         margin: 0px;
         padding: 0;
+        }
+        #main-container {
+        width: 90%;
+        margin-left: 5%;
         }
     }
     
@@ -261,6 +277,7 @@ body {
         #main-container {
         padding: 0;
         width: 96%;
+        margin-left: 2%;
         min-height: calc(100vh - 70px);      
         }
        
