@@ -218,23 +218,50 @@ body {
 
   /* media queuries*/
 
-  @media screen and (max-width: 980px) {
-    img {
+    @media screen and (max-width: 980px) {
+        img {
         float: left;
+        }
     }
-  }
 
-  @media screen and (max-width: 768px) {
-    #logo {
+    @media screen and (max-width: 768px) {
+        #logo {
         margin-left: 10px; 
-    }
-
-    #catimage {
+        }
+        #catimage {
         width: 50%;
-    }
-
-    body { 
+        }
+        body { 
         background: red;
+        margin: 0px;
+        padding: 0;
+        }
     }
-
+    
+    @media screen and (max-width: 640px) {
+        #masthead {
+        position: static;
+        text-align: center;    
+        }
+        body {
+        background: blue;
+        }
+        #catimage {
+        width: 100%;
+        }
+        #logo {
+        width: 100%;
+        margin-left: 0px;
+        }
+        nav {
+        text-align: center;
+        clear: both;
+        width: 100%;
+        }
+        #main-container {
+        padding: 0;
+        width: 96%;
+        min-height: calc(100vh - 70px);      
+        }
+       
     }
