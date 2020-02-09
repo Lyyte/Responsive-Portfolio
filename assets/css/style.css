@@ -215,3 +215,26 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  /* media queuries*/
+
+  @media screen and (max-width: 980px) {
+    img {
+        float: left;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #logo {
+        margin-left: 10px; 
+    }
+
+    #catimage {
+        width: 50%;
+    }
+
+    body { 
+        background: red;
+    }
+
+    }
